@@ -1,0 +1,133 @@
+h1 {
+  padding: 20px;
+  margin: auto;
+  padding-bottom: 0;
+}
+
+h2 {
+  padding: 15px;
+  margin: auto;
+}
+
+h3 {
+  padding: 10px;
+  margin: auto;
+}
+
+p {
+  font-size: 12px;
+}
+
+div {
+  height:100%;
+  text-align: center;
+}
+
+img {
+  height: 100%;
+  padding: 10px;
+}
+
+/* RESOURCE DICE */
+#resource-dice {
+  height: 8vh;
+}
+.dice-selector {
+  border: 5px solid black;
+  border-radius: 5px;
+  max-width: 64px;
+  max-height: 64px;
+  margin: auto;
+  background-size: cover;
+}
+
+/* UPGRADE LIST */
+#upgrade-list {
+  max-width: 18vh;
+  margin: auto;
+}
+.combat {
+  background-color: #c25367
+}
+.intel {
+  background-color: #5293e7
+}
+.resource {
+  background-color: #42a347
+}
+.station-upgrade-item {
+  max-height: 8vh;
+}
+.station-upgrade {
+  border: 5px solid black;
+  border-radius: 5px;
+  max-width: 7vh;
+  max-height: 7vh;
+  margin: auto;
+  background-size: cover;
+}
+
+/* SCHEMATIC */
+#schematic {
+  height: 92vh;
+  background-color: rgb(236, 208, 116);
+  position: relative;
+}
+.station-tile {
+  height: 126px;
+  width: 126px;
+  background-color: rgb(99, 80, 17);
+  border-radius: 5px;
+}
+.flipped {
+  background-image: none !important;
+  background-color: #333311 !important;
+  color: #333311 !important;
+}
+.station-slot {
+  position: absolute;
+  height: 126px;
+  width: 126px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.station-slot>label {
+  font-weight: bold;
+  margin-left: -148px;
+}
+.station-slot>label.swap {
+  margin-left: 128px;
+}
+
+/* STATION INFO */
+.station-info-item {
+  border-bottom: 1px solid #444;
+  height: 7vh;
+}
+.station-info-description {
+  overflow: scroll;
+}
+
+/* MENU BUTTONS */
+.menu-button {
+  cursor: pointer;
+}
+
+/* SCREEN POCKET */
+#station-pockets {
+  width: 80vh;
+}
+
+.pocket {
+  height: 20vh;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 20px;
+}
+.pocket>label {
+  margin-left: -200px;
+  font-weight: bold;
+}
+.damaged {
+  border: 8px solid #ce5432;
+}
